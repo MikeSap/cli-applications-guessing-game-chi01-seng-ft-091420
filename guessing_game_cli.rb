@@ -19,13 +19,14 @@ def run_guessing_game
 answer = num_gen
 prompt
 user_guess = capture_input
+while user_guess != "exit" do
 if user_guess == answer
   puts "You guessed the correct number!"
   elsif user_guess != answer
   puts "Sorry! the computer guessed #{answer}"
-else user_guess == "exit"
-  goodbye
-end
+    end
+  end
+goodbye
 end
 
 =begin 
