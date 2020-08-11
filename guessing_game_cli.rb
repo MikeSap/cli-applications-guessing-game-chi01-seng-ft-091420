@@ -4,7 +4,7 @@ puts"Guess a number from 1-6!"
 end
 
 def num_gen
-  rand(1..6)
+  rand(6) + 1
 end
 
 def capture_input
