@@ -26,6 +26,6 @@ if user_guess.to_i == answer
 elsif user_guess == "exit"
     goodbye
   else
-  puts "Sorry! the computer guessed #{answer}"
+  puts "Sorry! the computer guessed #{answer}."
   end
 end
