@@ -26,7 +26,5 @@ if user_guess.to_i == answer
   else user_guess != answer
   puts "Sorry! the computer guessed #{answer}"
     end
-    
     goodbye
-  end
 end
