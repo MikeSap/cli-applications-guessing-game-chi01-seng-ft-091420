@@ -14,3 +14,7 @@ end
 def capture_input
   gets
 end
+
+def number_match
+
+end
