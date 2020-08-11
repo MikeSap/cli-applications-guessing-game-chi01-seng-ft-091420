@@ -9,7 +9,7 @@ def num_gen
 end
 
 def capture_input
-  gets.chomp
+  gets.chomp.to_s
 end
 
 def goodbye
