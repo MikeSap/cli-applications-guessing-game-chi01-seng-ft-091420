@@ -21,7 +21,7 @@ def num_gen
 end
 
 def capture_input
-  gets
+  gets.chomp
 end
 
 def goodbye
