@@ -28,17 +28,3 @@ if user_guess.to_i == answer
   end
 goodbye
 end
-
-=begin 
-def run_guessing_game
-  puts "Guess A number from 1-6!"
-  answer = rand(1..6)
-  user_guess = gets.chomp.to_s
-  if user_guess == answer 
-    puts "You guessed the correct number!"
-  elsif user_guess != answer
-  puts "Sorry! The computer guessed #{answer}"
-else user_guess = "exit"
-  puts "Goodbye!"
-end
-=end
