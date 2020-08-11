@@ -23,9 +23,9 @@ user_guess = ""
   user_guess = capture_input
 if user_guess.to_i == answer
   puts "You guessed the correct number!"
-  elsif user_guess != answer
-  puts "Sorry! the computer guessed #{answer}"
 elsif user_guess == "exit"
     goodbye
+  else
+  puts "Sorry! the computer guessed #{answer}"
   end
 end
