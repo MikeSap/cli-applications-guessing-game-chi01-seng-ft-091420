@@ -8,7 +8,7 @@ def num_gen
 end
 
 def capture_input
-  gets.chomp.to_i
+  gets.chomp
 end
 
 def goodbye
