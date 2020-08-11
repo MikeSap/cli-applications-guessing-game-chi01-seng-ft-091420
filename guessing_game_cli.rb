@@ -1,5 +1,4 @@
 # Code your solution here!
-=begin 
 def prompt  
 puts"Guess a number from 1-6!"
 end
@@ -14,9 +13,8 @@ end
 
 def goodbye
   puts "Goodbye!"
-=end
+end
 
-=begin 
 def run_guessing_game
 answer = num_gen
 prompt
@@ -28,7 +26,7 @@ if user_guess == answer
 else user_guess == "exit"
   goodbye
 end
-=end
+end
 
 =begin 
 def run_guessing_game
@@ -42,4 +40,4 @@ def run_guessing_game
 else user_guess = "exit"
   puts "Goodbye!"
 end
-end
+=end
