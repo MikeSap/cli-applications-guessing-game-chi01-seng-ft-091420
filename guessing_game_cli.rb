@@ -17,9 +17,9 @@ end
 
 def run_guessing_game
 answer = num_gen
-prompt
 user_guess = capture_input
 while user_guess != "exit" do
+  prompt
 if user_guess == answer
   puts "You guessed the correct number!"
   elsif user_guess != answer
