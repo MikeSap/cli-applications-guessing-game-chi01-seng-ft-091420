@@ -39,4 +39,5 @@ def run_guessing_game
   elsif user_guess != answer
   puts "Sorry! The computer guessed #{answer}"
 else user_guess = "exit"
+  puts "Goodbye!"
 end
