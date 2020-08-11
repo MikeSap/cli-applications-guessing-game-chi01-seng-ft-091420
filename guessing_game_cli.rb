@@ -36,4 +36,7 @@ def run_guessing_game
   user_guess = gets.chomp.to_s
   if user_guess == answer 
     puts "You guessed the correct number!"
+  elsif user_guess != answer
+  puts "Sorry! The computer guessed #{answer}"
+else user_guess = "exit"
 end
