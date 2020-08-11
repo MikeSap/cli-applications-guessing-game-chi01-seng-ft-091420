@@ -17,9 +17,10 @@ end
 
 def run_guessing_game
 answer = num_gen
-user_guess = capture_input
+user_guess = ""
 while user_guess != "exit" do
   prompt
+  user_guess = capture_input
 if user_guess.to_i == answer
   puts "You guessed the correct number!"
   else user_guess != answer
