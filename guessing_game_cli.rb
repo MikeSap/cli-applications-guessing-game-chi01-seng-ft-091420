@@ -20,7 +20,7 @@ answer = num_gen
 while user_guess != "exit" do
   prompt
   user_guess = capture_input
-if user_guess == answer
+if user_guess.to_i == answer
   puts "You guessed the correct number!"
   elsif user_guess != answer
   puts "Sorry! the computer guessed #{answer}"
