@@ -1,5 +1,5 @@
 # Code your solution here!
-def prompt  
+# def prompt  
 puts"Guess a number from 1-6!"
 end
 
@@ -13,7 +13,7 @@ end
 
 def goodbye
   puts "Goodbye!"
-end
+#end
 
 def run_guessing_game
 answer = num_gen
