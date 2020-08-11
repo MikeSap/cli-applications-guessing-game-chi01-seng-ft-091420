@@ -25,7 +25,5 @@ def capture_input
 end
 
 def goodbye
-if gets == "exit"
   puts "Goodbye!"
-  end
 end
