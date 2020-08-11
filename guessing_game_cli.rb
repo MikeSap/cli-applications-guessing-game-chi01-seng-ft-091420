@@ -41,3 +41,4 @@ def run_guessing_game
 else user_guess = "exit"
   puts "Goodbye!"
 end
+end
