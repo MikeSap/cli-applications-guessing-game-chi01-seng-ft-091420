@@ -1,5 +1,8 @@
 # Code your solution here!
 def run_guessing_game
+answer = num_gen
+prompt
+user_guess = capture_input
 
 end
 
