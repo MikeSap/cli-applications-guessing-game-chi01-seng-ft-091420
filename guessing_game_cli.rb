@@ -15,6 +15,8 @@ def capture_input
   gets
 end
 
-def number_match
-
+def goodbye
+if gets == "exit"
+  puts "Goodbye!"
+  end
 end
