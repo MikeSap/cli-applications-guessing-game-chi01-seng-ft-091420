@@ -33,5 +33,5 @@ end
 def run_guessing_game
   puts "Guess A number from 1-6!"
   answer = rand(1..6)
-  
+  user_guess = gets.chomp.to_s
 end
